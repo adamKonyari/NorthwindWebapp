@@ -50,7 +50,7 @@ public class Task2Db extends AbstractDao implements Task2Dao {
     }
 
     private Task2Query fetchQuery(ResultSet resultSet) throws SQLException {
-        String product = resultSet.getString("product");
+        String product = resultSet.getString("company");
         int numberOfProducts = resultSet.getInt("numberofproducts");
         return new Task2Query(product, numberOfProducts);
     }

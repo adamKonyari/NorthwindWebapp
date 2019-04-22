@@ -14,8 +14,8 @@
 <table>
     <thread>
         <tr>
-        <th>PRODUCT</th>
-        <th>COMPANY</th>
+        <th>Product</th>
+        <th>Company</th>
         </tr>
     </thread>
     <tbody>
